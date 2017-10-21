@@ -1,15 +1,13 @@
-﻿using System;
-using System.Net;
-using System.Net.Sockets;
-
-namespace RemoteShutdownServer
+﻿namespace RemoteShutdownServer
 {
 	class Program
 	{
-		TcpListener server;
-
+		private static ShutdownServer server;
 		static void Main(string[] args)
 		{
+			server = new ShutdownServer();
+			server.start();
+			server.listening();
 		}
 	}
 }
