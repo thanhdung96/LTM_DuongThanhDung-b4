@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHCPServer", "DHCPServer\DH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHCPClient", "DHCPClient\DHCPClient.csproj", "{CB07321B-BC0E-41EE-A68A-D5AB91F1B54E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{93E64084-A55E-4284-A130-B66B81E0B55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{9818D389-4705-4CAD-985E-D99F95B3DC40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{CB07321B-BC0E-41EE-A68A-D5AB91F1B54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB07321B-BC0E-41EE-A68A-D5AB91F1B54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB07321B-BC0E-41EE-A68A-D5AB91F1B54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E64084-A55E-4284-A130-B66B81E0B55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E64084-A55E-4284-A130-B66B81E0B55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E64084-A55E-4284-A130-B66B81E0B55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E64084-A55E-4284-A130-B66B81E0B55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9818D389-4705-4CAD-985E-D99F95B3DC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9818D389-4705-4CAD-985E-D99F95B3DC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9818D389-4705-4CAD-985E-D99F95B3DC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9818D389-4705-4CAD-985E-D99F95B3DC40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
